@@ -7,6 +7,6 @@ __pycache__/
 *.pyc
 *.sh
 *.pth
-options/train/train_SRFBN_example.json
+
 experiments/
 

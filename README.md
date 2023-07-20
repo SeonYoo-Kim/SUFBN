@@ -125,7 +125,7 @@ If you find our work useful in your research or publications, please consider ci
 5. Then, run command:
    ```shell
    cd SRFBN_CVPR19
-   python train.py -opt options/train/train_SRFBN_example.json
+   python train.py -opt options/train/train_M-FBN-S_x4_2.json
    ```
 
 6. You can monitor the training process in `./experiments`.
