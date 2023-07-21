@@ -13,8 +13,8 @@
     "datasets": {
         "train": {
             "mode": "LRHR",
-            "dataroot_HR": "D:/super_resolution/4x4/train/CR",
-            "dataroot_LR": "D:/super_resolution/4x4/train/2IP",
+            "dataroot_HR": "D:/super_resolution/2nd/train/SR2",
+            "dataroot_LR": "D:/super_resolution/2nd/train/IP2",
             "data_type": "npy",
             "n_workers": 4,
             "batch_size": 8,
@@ -25,8 +25,8 @@
         },
         "val": {
             "mode": "LRHR",
-            "dataroot_HR": "D:/super_resolution/4x4/val/CR",
-            "dataroot_LR": "D:/super_resolution/4x4/val/2IP",
+            "dataroot_HR": "D:/super_resolution/2nd/val/SR2",
+            "dataroot_LR": "D:/super_resolution/2nd/val/IP2",
             "data_type": "img"
         }
     },
