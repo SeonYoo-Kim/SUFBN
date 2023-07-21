@@ -3,7 +3,7 @@
     "use_cl": true,
     "gpu_ids": [0],
 
-    "scale": 4,
+    "scale": 2,
     "is_train": true,
     "use_chop": true,
     "rgb_range": 255,
@@ -13,20 +13,20 @@
     "datasets": {
         "train": {
             "mode": "LRHR",
-            "dataroot_HR": "D:/super_resolution/4x4/train/CR",
-            "dataroot_LR": "D:/super_resolution/4x4/train/2IP",
+            "dataroot_HR": "/home/cvlab/srdata/MFBNSx2/2nd/train/SR2",
+            "dataroot_LR": "/home/cvlab/srdata/MFBNSx2/2nd/train/IP2",
             "data_type": "npy",
             "n_workers": 4,
-            "batch_size": 4,
-            "LR_size": 40,
+            "batch_size": 8,
+            "LR_size": 60,
             "use_flip": true,
             "use_rot": true,
             "noise": "."
         },
         "val": {
             "mode": "LRHR",
-            "dataroot_HR": "D:/super_resolution/4x4/val/CR",
-            "dataroot_LR": "D:/super_resolution/4x4/val/2IP",
+            "dataroot_HR": "/home/cvlab/srdata/MFBNSx2/2nd/val/SR2",
+            "dataroot_LR": "/home/cvlab/srdata/MFBNSx2/2nd/val/IP2",
             "data_type": "img"
         }
     },
