@@ -42,6 +42,7 @@ If you find our work useful in your research or publications, please consider ci
 - skimage
 - imageio
 - Pytorch (Pytorch version >=0.4.1 is recommended)
+- torchvision
 - tqdm 
 - pandas
 - cv2 (pip install opencv-python)
