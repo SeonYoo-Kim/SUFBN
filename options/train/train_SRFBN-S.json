@@ -13,8 +13,8 @@
     "datasets": {
         "train": {
             "mode": "LRHR",
-            "dataroot_HR": "/mnt/data/paper99/DF2K/HR/x4",
-            "dataroot_LR": "/mnt/data/paper99/DF2K/LR/x4",
+            "dataroot_HR": "D:/super_resolution/DIV2K/train/HR",
+            "dataroot_LR": "D:/super_resolution/DIV2K/train/LR/x16",
             "data_type": "npy",
             "n_workers": 4,
             "batch_size": 16,
@@ -25,8 +25,8 @@
         },
         "val": {
             "mode": "LRHR",
-            "dataroot_HR": "./results/HR/Set5/x4",
-            "dataroot_LR": "./results/LR/LRBI/Set5/x4",
+            "dataroot_HR": "D:/super_resolution/DIV2K/test/HR",
+            "dataroot_LR": "D:/super_resolution/DIV2K/test/LR/x16",
             "data_type": "img"
         }
     },
